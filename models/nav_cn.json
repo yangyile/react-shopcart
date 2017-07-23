@@ -1,0 +1,20 @@
+{
+    "quilt":"家居#被子",
+    "sleepmat":"家居#凉席",
+    "blanket":"家居#毯子",
+    "shopsame":"男装#商场同款",
+    "nowhot":"男装#当季热卖",
+    "tshirt":"男装#T恤",
+    "fan":"家用电器#风扇",
+    "aircon":"家用电器#空调",
+    "coodfan":"家用电器#冷风扇",
+    "phone":"手机#手机",
+    "chinatele":"手机#中国电信",
+    "chinauni":"手机#中国联通",
+    "notebook":"电脑#笔记本",
+    "gamemachine":"电脑#游戏本",
+    "allinone":"电脑#一体机",
+    "runmachine":"运动#跑步机",
+    "treadmill":"运动#踏步机",
+    "dumbbell":"运动#哑铃"
+}

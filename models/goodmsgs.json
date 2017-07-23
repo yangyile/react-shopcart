@@ -1,0 +1,138 @@
+db.goodmsgs.insert({ "imgUrl":"./public/img/eleapp/fan/fan1.jpg","price":"219.00","goodMsg":"美的(Midea)FS40-13ER 五叶遥控落地扇/电风扇","promotionMsg":"【 清凉直降特价秒！限时钜惠】一年爆售50万台9种风量，特设静音档，支持部分手机APP智能遥控，随您舒享，关键还是5片航空型扇叶，风柔和，也安静！","evaluteCount":"27万","storeMsg":"美的两季品旗舰店","goodProperty":"自营" })
+
+db.goodmsgs.insert({ "imgUrl":"./public/img/eleapp/fan/fan2.jpg","price":"329.00","goodMsg":"美的（midea）FZ10-15BRW 遥控塔扇/电风扇","promotionMsg":"【清凉直降特价秒！限时钜惠 】 高端遥控塔扇爆品，高端LED显示屏，负离子清新空气，特设睡眠风，7小时预约定时，超5万好评推荐！","evaluteCount":"6.4万","storeMsg":"美的两季品旗舰店","goodProperty":"自营" })
+
+db.goodmsgs.insert({ "imgUrl":"./public/img/eleapp/fan/fan3.jpg","price":"208.00","goodMsg":"格力（GREE）FD-40X64Bh5 五叶遥控落地扇/电风扇","promotionMsg":"17年新款，上新即售17万台，格力品质质造！5页柔风，6米远红外遥控，多种模式，3档风速，静享睡眠，动享酷暑","evaluteCount":"3.8万","storeMsg":"美的两季品旗舰店","goodProperty":"自营" })
+
+db.goodmsgs.insert({ "imgUrl":"./public/img/eleapp/fan/fan4.jpg","price":"129.00","goodMsg":"奥克斯（AUX）FS-40-A1613 电风扇/酷黑五扇叶落地扇（黑红）","promotionMsg":"【京东自营，快速达！】累计销售突破50万台！超18万好口碑！京东爆款帝王！超高性价比！一级能效！专利双滚轴电机，电机十年包用！5片风叶、三档风力调节、广角摇头，适合大空间多人使用。","evaluteCount":"18万","storeMsg":"奥克斯电风扇旗舰店","goodProperty":"自营" })
+
+db.goodmsgs.insert({ "imgUrl":"./public/img/eleapp/fan/fan5.jpg","price":"199.00","goodMsg":"格力（GREE）FB-4005-WG 壁扇/三叶扇/电风扇","promotionMsg":"大风量品质壁扇，高效4s电机，普马威克润滑油，3档风速，广角送风，清凉沁心！","evaluteCount":"500","storeMsg":"格力生活电器旗舰店","goodProperty":"自营" })
+
+db.goodmsgs.insert({ "imgUrl":"./public/img/eleapp/fan/fan6.jpg","price":"299.00","goodMsg":"艾美特(Airmate) FT41R 遥控塔扇/电风扇","promotionMsg":"【艾美特清凉特惠】塔扇爆品！安全无叶静柔无声，智能遥控，3档风量调节，静音睡眠风，特有香薰功能，7小时预约定时，防倾倒设计！","evaluteCount":"1.9万","storeMsg":"艾美特生活电器旗舰店","goodProperty":"自营" })
+
+db.goodmsgs.insert({ "imgUrl":"./public/img/eleapp/fan/fan7.jpg","price":"189.00","goodMsg":"美的（Midea）FS40-13C 五叶落地扇/电风扇","promotionMsg":"【清凉直降特价秒！限时钜惠】五叶机械爆款，时尚畅销落地扇，5片航空型旋风叶，2小时预约定时，实力爆款，97%好评率！","evaluteCount":"7.6万","storeMsg":"美的两季品旗舰店","goodProperty":"自营" })
+
+db.goodmsgs.insert({ "imgUrl":"./public/img/eleapp/fan/fan8.jpg","price":"179.00","goodMsg":"艾美特(Airmate) FSW52R 遥控落地扇/电风扇","promotionMsg":"【艾美特清凉特惠】累计销售120万台！超31万消费者参与好评！大风量超静音，5米智能遥控，3档风量调节，静音睡眠风，一级能效！","evaluteCount":"34万","storeMsg":"艾美特生活电器旗舰店","goodProperty":"自营" })
+
+#aircon
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/eleapp/aircon/aircon1.jpg", "goodsId":"69", "goodsStyle":"aircon", "price":"1999.00", "goodMsg":"奥克斯（AUX）正1.5匹 冷暖 定速 空调挂机(KFR-35GW/HFJ+3)", "promotionMsg":"【疯狂周末，机“惠”难得】你捡便宜，我减价！挡不住的清凉，这个夏天有我就够了！98%高好评率，人气网红爆款，赶紧下单吧！火速行动，抢回家", "evaluteCount":"18万", "storeMsg":"奥克斯空调自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/eleapp/aircon/aircon2.jpg", "goodsId":"70", "goodsStyle":"aircon", "price":"3399.00", "goodMsg":"格力（GREE）正1.5匹 变频 品圆 冷暖 壁挂式空调 KFR-35GW/(35592)FNhDa-A3", "promotionMsg":"【空调清凉节】炎热夏日，格力帮你降温！凑单套购更优惠！满6000减200，满10000减400！7万好评！节能省电！实力派·惠降温！臻品国货，尽在格力！", "evaluteCount":"9.5万", "storeMsg":"格力官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/eleapp/aircon/aircon3.jpg", "goodsId":"71", "goodsStyle":"aircon", "price":"2999.00", "goodMsg":"奥克斯（AUX）正1.5匹 一级能效 变频冷暖 智能 30秒速冷 空调挂机 京东微联APP控制(KFR-35GW/BpTYC1+1)", "promotionMsg":"【疯狂周末，机“惠”难得】30秒可以挤上一班地铁，30秒可以跑完200米，30秒还可以让你享受清凉，赶紧抢回家，这个夏天有它就够了！火速行动，抢回家", "evaluteCount":"3.8万", "storeMsg":"奥克斯空调自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/eleapp/aircon/aircon4.jpg", "goodsId":"72", "goodsStyle":"aircon", "price":"2799.00", "goodMsg":"格力（GREE）正1.5匹 定速 品圆 冷暖 壁挂式空调 KFR-35GW/(35592)NhDa-3", "promotionMsg":"【空调清凉节】炎热夏日，格力帮你降温！凑单套购更优惠！满6000减200，满10000减400！4万好评！高性价比！实力派·惠降温！臻品国货，尽在格力！", "evaluteCount":"6.2万", "storeMsg":"格力官方旗舰店", "goodProperty":"自营" })
+#coodfan
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/eleapp/coodfan/coodfan1.jpg", "goodsId":"69", "goodsStyle":"coodfan", "price":"349.00", "goodMsg":"先锋（Singfun）大风量遥控空调扇/冷风扇/电风扇DG091", "promotionMsg":"【京东爆品-大风量就选先锋】超大风量，加厚加大冰帘与上下加水设计，疾速降温且更凉！水电分离安全设计；品牌独有紫灯净化功能！7.5小时定时，远程遥控！带关机后延时风干功能！", "evaluteCount":"10万", "storeMsg":"先锋两季品旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/eleapp/coodfan/coodfan2.jpg", "goodsId":"70", "goodsStyle":"coodfan", "price":"499.00", "goodMsg":"美的（Midea）AC120-17ARW 劲冷遥控冷风扇/空调扇/电风扇", "promotionMsg":"【家电清凉节.风扇超级秒杀】清凉爆款，强劲冷风，超大加厚湿帘，3种风类可选，7小时预约定时，60°左右自动摆风！全场低至99元，点击查看详情>>", "evaluteCount":"6400", "storeMsg":"美的两季品旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/eleapp/coodfan/coodfan3.jpg", "goodsId":"71", "goodsStyle":"coodfan", "price":"329.00", "goodMsg":"奥克斯（AUX）遥控冷风扇/空调扇/电风扇FLS-120F-1", "promotionMsg":"【自营爆款】大品牌品质保障！LED显示屏，7.5小时定时，手动遥控一体化，居家，办公多空间使用！制冷/加湿/净化一机多用！30天保价，180天换货无忧！", "evaluteCount":"5.3万", "storeMsg":"奥克斯两季品旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/eleapp/coodfan/coodfan4.jpg", "goodsId":"72", "goodsStyle":"coodfan", "price":"399.00", "goodMsg":"奥克斯（AUX）遥控冷暖冷风扇/空调扇/电风扇/取暖器NFS-20F-1", "promotionMsg":"【自营爆款】大品牌品质保障！冷暖一键随心切换，夏天用完冬天接着用，7.5小时定时，手动遥控一体化，居家，办公多空间使用！制冷/制热/增湿/净化一机多用！", "evaluteCount":"5.3万", "storeMsg":"奥克斯两季品旗舰店", "goodProperty":"自营" })
+
+
+
+##computer##
+#allineone
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/allinone/allinone1.jpg", "goodsId":"9", "goodsStyle":"allinone", "price":"4998.00", "goodMsg":"戴尔(DELL)灵越3464-R1528W 23.8英寸一体机电脑(i5-7200U 8G 1T 2G独显 WIFI 三年上门 IPS屏 无线键鼠)", "promotionMsg":"【七代i5双核处理器、2G独显一体机】Inter第七代CPU效率高响应快，1T硬盘无忧存储，23.8英寸IPS宽视角全高清屏幕影像无拖尾，无线键鼠高端配备，三年整机上门服务专业保障！", "evaluteCount":"3300", "storeMsg":"戴尔京东自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/allinone/allinone2.jpg", "goodsId":"10", "goodsStyle":"allinone", "price":"4998.00", "goodMsg":"戴尔(DELL)灵越3464-R1528W 23.8英寸一体机电脑(i5-7200U 8G 1T 2G独显 WIFI 三年上门 IPS屏 无线键鼠)", "promotionMsg":"【七代i5双核处理器、2G独显一体机】Inter第七代CPU效率高响应快，1T硬盘无忧存储，23.8英寸IPS宽视角全高清屏幕影像无拖尾，无线键鼠高端配备，三年整机上门服务专业保障！", "evaluteCount":"3300", "storeMsg":"戴尔京东自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/allinone/allinone3.jpg", "goodsId":"11", "goodsStyle":"allinone", "price":"3499.00", "goodMsg":"联想（Lenovo）AIO 510致美一体机台式电脑21.5英寸（G4560T 4G 1T 集成显卡 WIFI 蓝牙 Win10 ）黑", "promotionMsg":"【全场低至2999元，拯救者6期白条免息】大眼萌玩转暑价，小黄人带你嗨，持续降价，够爽快，购实惠！", "evaluteCount":"1500", "storeMsg":"联想电脑旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/allinone/allinone4.jpg", "goodsId":"12", "goodsStyle":"allinone", "price":"5999.00", "goodMsg":"戴尔(DELL)成就5460-R2548B 23.8英寸防眩光一体机电脑(i5-7400T 8G 128GSSD+1T 4G独显 三年上门 无线键鼠)", "promotionMsg":"【七代i5处理器、混合硬盘、23.8英寸全高清一体机】三年上门售后保障，无线键鼠搭配办公，主流配置满足办公商务新生活！", "evaluteCount":"3300", "storeMsg":"戴尔京东自营旗舰店", "goodProperty":"自营" })
+
+#gamemachine
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/gamemacine/gamemachine1.jpg", "goodsId":"13", "goodsStyle":"gamemachine", "price":"5998.00", "goodMsg":"联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i5-7300HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)", "promotionMsg":"【升级4G大显存！我们的SSD比大多数产品更快一些】GTX1050Ti就选拯救者！专业游戏键盘&新模具全新设计！", "evaluteCount":"1.2万", "storeMsg":"联想电脑旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/gamemacine/gamemachine2.jpg", "goodsId":"14", "goodsStyle":"gamemachine", "price":"7399.00", "goodMsg":"联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)", "promotionMsg":"【升级4G大显存！我们的SSD比大多数产品更快一些】GTX1050Ti就选拯救者！专业游戏键盘&新模具全新设计！", "evaluteCount":"1.2万", "storeMsg":"联想电脑旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/gamemacine/gamemachine3.jpg", "goodsId":"15", "goodsStyle":"gamemachine", "price":"5899.00", "goodMsg":"联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i5-7300HQ 8G 1T+128G SSD GTX1050Ti 2G IPS 黑)", "promotionMsg":"【我们的SSD比大多数产品更快一些】GTX1050Ti就选拯救者！专业游戏键盘&新模具全新设计！", "evaluteCount":"1.2万", "storeMsg":"联想电脑旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/gamemacine/gamemachine4.jpg", "goodsId":"16", "goodsStyle":"gamemachine", "price":"5999.00", "goodMsg":"惠普(HP)暗影精灵II代Pro 暗影红 15.6英寸游戏笔记本(i5-7300HQ 8G 128GSSD+1T GTX1050Ti 4G独显 IPS FHD)", "promotionMsg":"GTX1050TI 4G独显游戏本性能均衡！四核英特尔标压处理器！厚度25mm不到的游戏本！", "evaluteCount":"2.7万", "storeMsg":"惠普官方旗舰店", "goodProperty":"自营" })
+
+#notebook
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/notebook/notebook1.jpg", "goodsId":"17", "goodsStyle":"notebook", "price":"5998.00", "goodMsg":"联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i5-7300HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)", "promotionMsg":"【升级4G大显存！我们的SSD比大多数产品更快一些】GTX1050Ti就选拯救者！专业游戏键盘&新模具全新设计！", "evaluteCount":"1.2万", "storeMsg":"联想电脑旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/notebook/notebook2.jpg", "goodsId":"18", "goodsStyle":"notebook", "price":"7399.00", "goodMsg":"联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)", "promotionMsg":"【升级4G大显存！我们的SSD比大多数产品更快一些】GTX1050Ti就选拯救者！专业游戏键盘&新模具全新设计！", "evaluteCount":"1.2万", "storeMsg":"联想电脑旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/notebook/notebook3.jpg", "goodsId":"19", "goodsStyle":"notebook", "price":"4999.00", "goodMsg":"小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银", "promotionMsg":"【i5 独立显卡】全高清窄边框 8G内存 256G固态硬盘 支持SSD硬盘扩容 薄至14.8mm 轻至1.28kg！AKG扬声器！", "evaluteCount":"2.1万", "storeMsg":"小米官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/computer/notebook/notebook4.jpg", "goodsId":"20", "goodsStyle":"notebook", "price":"6588.00", "goodMsg":"Apple MacBook Air 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存 MMGF2CH/A)", "promotionMsg":"【领券减300！再送电脑包】一体成型金属机身，纤薄轻巧，长达12小时续航！", "evaluteCount":"10万", "storeMsg":"京东Apple产品专营店", "goodProperty":"自营" })
+
+
+
+
+
+##homefurnish##
+#blanket
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/blanket/blanket1.jpg", "goodsId":"21", "goodsStyle":"blanket", "price":"179.00", "goodMsg":"【下单立减】恒源祥家纺 纯棉毛巾被子 柔软舒适午睡毯提花春秋毛毯子毛巾毯 多选花型 蓝色 150*200cm", "promotionMsg":"7.4-7.9，全场1件9折，2件8.5折，多买多优惠立即下单享优惠！", "evaluteCount":"3800", "storeMsg":"恒源祥甄相专卖店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/blanket/blanket2.jpg", "goodsId":"22", "goodsStyle":"blanket", "price":"79.00", "goodMsg":"【京东超市】九洲鹿家纺毛毯加厚珊瑚绒毯子床单夏季午睡空调毯毛巾被法兰绒盖毯 条纹-1.5x2m", "promotionMsg":"【京东自营 211限时达】九洲鹿家纺自营官方旗舰店 夏品清仓直降 支持团购，更多优惠点击查看！", "evaluteCount":"1万", "storeMsg":"九洲鹿家纺自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/blanket/blanket3.jpg", "goodsId":"23", "goodsStyle":"blanket", "price":"35.00", "goodMsg":"【京东超市】竹之锦 毛巾家纺 竹纤维纯色柔软吸水生态至简大浴巾 蓝色 360g/条 70×140cm", "promotionMsg":"京东配送 211限时达 支持货到付款！ 买家纺 上京东！京东自营 品质保证！", "evaluteCount":"3.2万", "storeMsg":"竹之锦京东自营官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/blanket/blanket4.jpg", "goodsId":"24", "goodsStyle":"blanket", "price":"119.00", "goodMsg":"【京东超市】富安娜（FUANNA）家纺毛毯 家居用品夏薄毯双人加大空调毯多功能法兰绒毯 朝花夕拾180*200 红", "promotionMsg":"【清凉季】凉风“席席”，“丝”享清凉，富安娜凉席、天丝伴您度过清凉一夏，部分商品满200减40，400减100，800减200，一起来换一床高品质的床品吧！更多精品，猛戳", "evaluteCount":"1400", "storeMsg":"富安娜自营品牌旗舰店", "goodProperty":"自营" })
+
+#quilt
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/quilt/quilt1.jpg", "goodsId":"25", "goodsStyle":"quilt", "price":"99.00", "goodMsg":"【京东超市】南极人 被芯家纺 亲肤柔软夏被 空调被 夏凉被 马兰花开 200*230cm", "promotionMsg":"", "evaluteCount":"1.3万", "storeMsg":"南极人家纺自营专区", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/quilt/quilt2.jpg", "goodsId":"26", "goodsStyle":"quilt", "price":"159.00", "goodMsg":"水星家纺（MERCURY）克洛怡抗菌七孔夏薄被 玉粉色被子 加大双人被芯 200*230cm", "promotionMsg":"京东自营水星家纺夏凉盛宴购爽快，满199减50/499减150/899减300，更多优惠猛戳进入>>", "evaluteCount":"5900", "storeMsg":"水星家纺自营官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/quilt/quilt3.jpg", "goodsId":"27", "goodsStyle":"quilt", "price":"89.00", "goodMsg":"南极人（Nanjiren）被芯家纺 亲肤柔软印花夏凉被子 单双人夏天薄被子 夏被 空调被 索菲格 180*200cm", "promotionMsg":"【京东自营 211限时达】南极人自营家纺专卖店,枕头,蚊帐,凉席,夏被,支持礼品团购,查看更多优惠猛击！", "evaluteCount":"9500", "storeMsg":"南极人自营家纺专卖店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/quilt/quilt4.jpg", "goodsId":"28", "goodsStyle":"quilt", "price":"198.00", "goodMsg":"富安娜（FUANNA）被子 单人双人空调被 可水洗夏被 纤维被 超柔压花舒爽夏被加大 跃动 1.8m(230*229cm)白色", "promotionMsg":"【清凉季】凉风“席席”，“丝”享清凉，富安娜凉席、天丝伴您度过清凉一夏，部分商品满200减40，400减100，800减200，一起来换一床高品质的床品吧！更多精品，猛戳", "evaluteCount":"3900", "storeMsg":"富安娜自营品牌旗舰店", "goodProperty":"自营" })
+
+#sleepmat
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/sleepmat/sleepmat1.jpg", "goodsId":"29", "goodsStyle":"sleepmat", "price":"89.00", "goodMsg":"南极人家纺床垫 加厚防滑床褥子法莱绒榻榻米垫子垫被 单双人学生宿舍 法莱绒-烟灰色 150cm*200cm", "promotionMsg":"南极人夏凉特惠来袭！全场199减10，299减30,499减50！点击首页查看更多优惠", "evaluteCount":"1万", "storeMsg":"南极人居家生活旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/sleepmat/sleepmat2.jpg", "goodsId":"30", "goodsStyle":"sleepmat", "price":"89.00", "goodMsg":"九洲鹿 加厚床垫床褥子可折叠榻榻米学生床垫子单人双人床垫被 (法莱绒)星语星空 150X200cm", "promotionMsg":"九洲鹿夏凉清新惠！福利折扣惊爆来袭！全场商品满2件享9折，更有惊喜商品等你抢购，猛戳", "evaluteCount":"4.2万", "storeMsg":"九洲鹿家纺旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/sleepmat/sleepmat3.jpg", "goodsId":"31", "goodsStyle":"sleepmat", "price":"149.00", "goodMsg":"【京东超市】南极人家纺 榻榻米加厚折叠防滑双人床褥子垫被 羽丝绒床垫子 灰色 1.8米床", "promotionMsg":"【京东自营 限时达】南极人自营家纺旗舰店，清凉一夏，支持团购，查看更多优惠猛击这里！", "evaluteCount":"3300", "storeMsg":"南极人自营家纺旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/homefurnish/sleepmat/sleepmat4.jpg", "goodsId":"32", "goodsStyle":"sleepmat", "price":"129.00", "goodMsg":"南极人 Nanjiren 加厚防滑印花床垫单人双人床褥子学生宿舍榻榻米可折叠床垫子 秘密花园 150*200cm四季通用", "promotionMsg":"【京东自营 211限时达】南极人自营家纺专卖店,枕头,蚊帐,凉席,夏被,支持礼品团购,查看更多优惠猛击！", "evaluteCount":"1500", "storeMsg":"南极人自营家纺专卖店", "goodProperty":"自营" })
+
+
+
+
+##mancloth##
+#nowhot
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/nowhot/nowhot1.jpg", "goodsId":"33", "goodsStyle":"nowhot", "price":"88.00", "goodMsg":"途胜威 短袖T恤男 2017春新品纯棉体恤男圆领半袖商务休闲纯色衣服 浅蓝色 XL/175", "promotionMsg":"", "evaluteCount":"2.6万", "storeMsg":"盈兴服装专营店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/nowhot/nowhot2.jpg", "goodsId":"34", "goodsStyle":"nowhot", "price":"139.00", "goodMsg":"HAUTTON 休闲裤男2017夏季新款修身韩版小脚裤时尚直筒男士薄款弹力长裤 066浅蓝色 31", "promotionMsg":"", "evaluteCount":"1.7万", "storeMsg":"壹酷服饰专营店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/nowhot/nowhot3.jpg", "goodsId":"35", "goodsStyle":"nowhot", "price":"69.00", "goodMsg":"潮至 牛仔裤男春秋款2017商务休闲修身直筒男士复古时尚潮流水洗牛仔长裤 HN9004 蓝色 31", "promotionMsg":"", "evaluteCount":"", "storeMsg":"享利运服装专营店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/nowhot/nowhot4.jpg", "goodsId":"36", "goodsStyle":"nowhot", "price":"118.00", "goodMsg":"北极绒 2017新款男士九分牛仔裤男修身韩版小脚裤子 弹力舒适 休闲时尚 T22-浅蓝色 31(2尺4寸)", "promotionMsg":"2017夏季新款 支持货到付款 30天无理由退换货", "evaluteCount":"1.1万", "storeMsg":"北极绒Bejirog男装旗舰店", "goodProperty":"自营" })
+
+#shopsame
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/shopsame/shopsame1.jpg", "goodsId":"37", "goodsStyle":"shopsame", "price":"639.00", "goodMsg":"【京东专供 专柜同款】报喜鸟2017新款男士商务休闲长袖衬衫男 都市绅士修身型上班打底衫 蓝色格子长袖 40", "promotionMsg":"满699减50 999减100 可货到付款 打白条6期免息", "evaluteCount":"1400", "storeMsg":"报喜鸟官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/shopsame/shopsame2.jpg", "goodsId":"38", "goodsStyle":"shopsame", "price":"159.00", "goodMsg":"福特（Ford）男装 牛仔裤男宽松男士牛仔裤修身直筒男生韩版牛仔裤子 蓝6270L(薄款) 34码(腰围2尺6)", "promotionMsg":"第二件半价，全场3免1", "evaluteCount":"1200", "storeMsg":"FORD福特服饰旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/shopsame/shopsame3.jpg", "goodsId":"39", "goodsStyle":"shopsame", "price":"99.00", "goodMsg":"卡宾Cabbeen 短袖T恤男装黑色纯棉印花修身圆领上衣潮牌3172132247 煤黑色01 50/175/L", "promotionMsg":"此款合体偏修身，喜欢宽松的建议购买比平时大一码", "evaluteCount":"1100", "storeMsg":"卡宾男装旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/shopsame/shopsame4.jpg", "goodsId":"40", "goodsStyle":"shopsame", "price":"199.50", "goodMsg":"【商场同款直降】杰克琼斯透气织法拼接夏条纹男翻领短袖T恤C|217206514 E39藏蓝 175/96A/M", "promotionMsg":"年终清算 好价开启千款商场同款商品新降低至五折 点击查看→", "evaluteCount":"200", "storeMsg":"JACK&JONES官方旗舰店", "goodProperty":"自营" })
+
+#tshirt
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/tshirt/tshirt1.jpg", "goodsId":"41", "goodsStyle":"tshirt", "price":"124.00", "goodMsg":"GapFit男装 透气拉链跑步套头衫635865 暗珍珠色 185/108A(XL)", "promotionMsg":"", "evaluteCount":"0", "storeMsg":"Gap官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/tshirt/tshirt2.jpg", "goodsId":"42", "goodsStyle":"tshirt", "price":"79.00", "goodMsg":"战地吉普短袖T恤男2017夏季新款男士衣服上衣半袖体恤印花纯棉t恤男 6096灰色(战车短袖) L / 175", "promotionMsg":"【尺码请咨询客服！】更多夏季新款短袖纯棉印花纯色翻领条纹亚麻t恤，进店选购！支持货到付款！", "evaluteCount":"1.6万", "storeMsg":"肯创服饰专营店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/tshirt/tshirt3.jpg", "goodsId":"43", "goodsStyle":"tshirt", "price":"99.00", "goodMsg":"战地吉普 短袖T恤 男装2017夏款男士立领上衣夏天纯棉衣服印花衫t恤男 7127灰色丨短袖立领款 180/XL", "promotionMsg":"【全场2件8折】15天无理由退换！店铺新款长袖短袖印花翻领条纹亚麻T恤进店购买！", "evaluteCount":"2.5万", "storeMsg":"肯创男装专营店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/mancloth/tshirt/tshirt4.jpg", "goodsId":"44", "goodsStyle":"tshirt", "price":"99.00", "goodMsg":"花花公子 短袖t恤男 2017夏季男装新款商务休闲时尚翻领纯色短袖纯棉T恤 男 T365藏青色 180/XL", "promotionMsg":"", "evaluteCount":"5800", "storeMsg":"肯创电子商务男装专营店", "goodProperty":"自营" })
+
+
+
+
+
+##phone##
+#chinatele
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/chinatele/chinatele1.jpg", "goodsId":"45", "goodsStyle":"chinatele", "price":"3788.00", "goodMsg":"【电信赠费版】华为 HUAWEI P10 全网通 4GB+64GB 玫瑰金 移动联通电信4G手机 双卡双待", "promotionMsg":"【选电信优惠购】一样的裸机，配专属手机卡，高返费更划算，低月租大流量更实惠！搜北京电信，惊喜大促还有光纤宽带哦！", "evaluteCount":"1", "storeMsg":"中国电信自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/chinatele/chinatele2.jpg", "goodsId":"46", "goodsStyle":"chinatele", "price":"1199.00", "goodMsg":"【电信赠费版】荣耀 畅玩6X 4GB+32GB 全网通4G手机 高配版 冰河银", "promotionMsg":"【选电信优惠购】一样的裸机，配专属手机卡，高返费更划算，低月租大流量更实惠！搜北京电信，惊喜大促还有光纤宽带哦！", "evaluteCount":"70", "storeMsg":"中国电信自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/chinatele/chinatele3.jpg", "goodsId":"47", "goodsStyle":"chinatele", "price":"599.00", "goodMsg":"【电信赠费版】小米 红米 4A 全网通 2GB内存 16GB ROM 深空灰 移动联通电信4G手机 双卡双待", "promotionMsg":"【选电信优惠购】一样的裸机，配专属手机卡，高返费更划算，低月租大流量更实惠！搜北京电信，惊喜大促还有光纤宽带哦！", "evaluteCount":"200", "storeMsg":"中国电信自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/chinatele/chinatele4.jpg", "goodsId":"48", "goodsStyle":"chinatele", "price":"6488.00", "goodMsg":"【电信赠费版】Apple iPhone 7 Plus 128G 红色特别版 移动联通电信4G手机", "promotionMsg":"【选电信优惠购】一样的裸机，配专属手机卡，高返费更划算，低月租大流量更实惠！搜北京电信，惊喜大促还有光纤宽带哦！", "evaluteCount":"3", "storeMsg":"中国电信自营旗舰店", "goodProperty":"自营" })
+
+#chinauni
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/chinauni/chinauni1.jpg", "goodsId":"49", "goodsStyle":"chinauni", "price":"1099.00", "goodMsg":"【联通赠费版】荣耀8青春版 全网通 标配版 3GB+32GB 流光金", "promotionMsg":"选联通优惠购，一样的裸机，搭配手机卡，办理联通冰激凌套餐，首月免费，套餐内使用语音流量不限量！", "evaluteCount":"1200", "storeMsg":"中国联通自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/chinauni/ch中国联通自营旗舰店inauni2.jpg", "goodsId":"50", "goodsStyle":"chinauni", "price":"4899.00", "goodMsg":"【联通赠费版】Apple iPhone 7 32G 玫瑰金 移动联通电信4G手机", "promotionMsg":"选联通优惠购，一样的裸机，搭配手机卡，办理联通冰激凌套餐，首月免费，套餐内使用语音流量不限量！", "evaluteCount":"100", "storeMsg":"中国联通自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/chinauni/chinauni3.jpg", "goodsId":"51", "goodsStyle":"chinauni", "price":"899.00", "goodMsg":"【联通赠费版】小米 红米Note4X 全网通版 3GB+16GB 磨砂黑 移动联通电信4G手机", "promotionMsg":"选联通优惠购，一样的裸机，搭配手机卡，办理联通冰激凌套餐，首月免费，套餐内使用语音流量不限量！", "evaluteCount":"200", "storeMsg":"中国联通自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/chinauni/chinauni4.jpg", "goodsId":"52", "goodsStyle":"chinauni", "price":"1799.00", "goodMsg":"【联通赠费版】 锤子 坚果Pro 64GB 酒红色 全网通 移动联通电信4G手机 双卡双待", "promotionMsg":"选联通优惠购，一样的裸机，搭配手机卡，办理联通冰激凌套餐，首月免费，套餐内使用语音流量不限量！", "evaluteCount":"100", "storeMsg":"中国联通自营旗舰店", "goodProperty":"自营" })
+
+#phone
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/phone/phone1.jpg", "goodsId":"53", "goodsStyle":"phone", "price":"1099.00", "goodMsg":"荣耀8青春版 全网通 标配版 3GB+32GB 珠光白", "promotionMsg":"双面2.5D玻璃，美品潮搭，颜值小担当~【京东单品日-7月12日女王节专场】时尚爆品直降，更多爆款一起狂欢！", "evaluteCount":"24万", "storeMsg":"荣耀官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/phone/phone2.jpg", "goodsId":"54", "goodsStyle":"phone", "price":"999.00", "goodMsg":"小米 红米Note4X 全网通版 3GB+32GB 香槟金 移动联通电信4G手机", "promotionMsg":"5.5”多彩金属机身，4100mAh长续航，骁龙8核处理器！小米Max2 新品热卖，夏日狂欢趴，让喜悦放大！", "evaluteCount":"23万", "storeMsg":"小米官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/phone/phone3.jpg", "goodsId":"55", "goodsStyle":"phone", "price":"2999.00", "goodMsg":"荣耀 V9 全网通 高配版 6GB+64GB 极光蓝 移动联通电信4G手机 双卡双待", "promotionMsg":"纤薄机身，2K屏，双镜头，强劲芯片，你想要的快~荣耀新品齐聚，部分爆款下单立减，点击查看~", "evaluteCount":"12万", "storeMsg":"荣耀官方旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/phone/phone/phone4.jpg", "goodsId":"56", "goodsStyle":"phone", "price":"1299.00", "goodMsg":"荣耀 畅玩6X 4GB 32GB 全网通4G手机 高配版 铂光金", "promotionMsg":"下单立减50！双镜头，大内存，长续航！荣耀新品齐聚，部分爆款下单立减，点击查看~", "evaluteCount":"37万", "storeMsg":"荣耀官方旗舰店", "goodProperty":"自营" })
+
+
+
+
+
+##sport##
+#dumbbell
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/dumbbell/dumbbell1.jpg", "goodsId":"57", "goodsStyle":"dumbbell", "price":"219.00", "goodMsg":"凯速KANSOON可拆装电镀哑铃20KG(10公斤*2)带蓝黑泡棉35cm连接杆礼盒装哑铃蓝黑杆", "promotionMsg":"【满199减30 自营瑜伽哑铃】", "evaluteCount":"1.6万", "storeMsg":"凯速京东自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/dumbbell/dumbbell2.jpg", "goodsId":"58", "goodsStyle":"dumbbell", "price":"199.00", "goodMsg":"双牌 电镀礼盒装哑铃杠铃组合 可拆卸男士手铃家用运动健身器材 15公斤精装包胶杆双保险螺母/单只7.5KG*2", "promotionMsg":"【镇店之宝】七层电镀工艺增强哑铃抗腐力和光泽度 更耐用", "evaluteCount":"3.2万", "storeMsg":"双牌双才专卖店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/dumbbell/dumbbell3.jpg", "goodsId":"59", "goodsStyle":"dumbbell", "price":"199.00", "goodMsg":"诚悦运动健身组合电镀哑铃15公斤kg礼盒CY-024赠手套护腕连接器", "promotionMsg":"【满199减30 自营瑜伽哑铃】", "evaluteCount":"4.1万", "storeMsg":"诚悦健身自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/dumbbell/dumbbell4.jpg", "goodsId":"60", "goodsStyle":"dumbbell", "price":"219.00", "goodMsg":"诚悦运动健身组合电镀哑铃20公斤kg礼盒CY-025赠手套护腕连接器", "promotionMsg":"【满199减30 自营瑜伽哑铃】", "evaluteCount":"2.1万", "storeMsg":"诚悦健身自营旗舰店", "goodProperty":"自营" })
+
+#runmachine
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/runmachine/runmachine1.jpg", "goodsId":"61", "goodsStyle":"runmachine", "price":"2299.00", "goodMsg":"亿健跑步机 家用静音健身器材升级款9009 WiFi彩屏多功能", "promotionMsg":"【秒杀来袭】WIFI彩屏秒杀价2299！仅限7.8！61CM舒适跑台，够宽跑步才畅快", "evaluteCount":"1.9万", "storeMsg":"亿健百康专卖店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/runmachine/runmachine2.jpg", "goodsId":"62", "goodsStyle":"runmachine", "price":"2199.00", "goodMsg":"亿健跑步机 家用静音折叠健身器材 WIFI智能10.1英寸彩屏多功能", "promotionMsg":"【超级秒杀】仅2199元 送688元大礼包 仅限8日【10吋大彩屏】【上楼包安装】全国联保", "evaluteCount":"2.9万", "storeMsg":"熣灿运动专营店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/runmachine/runmachine3.jpg", "goodsId":"63", "goodsStyle":"runmachine", "price":"3199.00", "goodMsg":"亿健跑步机家用健身器材静音电动坡度2017款9009D 14.1吋WiFi彩屏多功能", "promotionMsg":"【欧盟CE认证 61CM舒适跑台】14.1吋大屏到手价2999，送豪华大礼包！仅限7.8", "evaluteCount":"5400", "storeMsg":"亿健巴山专卖店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/runmachine/runmachine4.jpg", "goodsId":"64", "goodsStyle":"runmachine", "price":"3380.00", "goodMsg":"锐步（Reebok）跑步机irun家用静音折叠免安装跑步机", "promotionMsg":"【京东精选 品质认证 货到付款！】锐步新款全折叠免安装跑步机 开箱使用只需三步！", "evaluteCount":"1100", "storeMsg":"锐步Reebok京东自营专卖", "goodProperty":"自营" })
+
+#treadmill
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/treadmill/treadmill1.jpg", "goodsId":"65", "goodsStyle":"treadmill", "price":"268.00", "goodMsg":"双超（suncao）SC-S032D 液压迷你家用瘦身健身器材 免安装扶手 静音踏步机", "promotionMsg":"【京东自营 货到付款 闪电发货】多款踏步机、健身器材可选 足不出户 轻松健身更多健身器材", "evaluteCount":"8600", "storeMsg":"双超自营旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/treadmill/treadmill2.jpg", "goodsId":"66", "goodsStyle":"treadmill", "price":"999.00", "goodMsg":"美国RUOSAI若赛踏步机椭圆机迷你家用静音多功能脚踏机登山机健身器材 MiniOval", "promotionMsg":"磁控阻力 不伤膝盖 椭圆运动 无需用电", "evaluteCount":"200", "storeMsg":"RUOSAI若赛旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/treadmill/treadmill3.jpg", "goodsId":"67", "goodsStyle":"treadmill", "price":"1099.00", "goodMsg":"斯诺德踏步机 家用静音迷你椭圆机扶手脚踏机减肥瘦身健身器材 升级豪华版Q7橙色", "promotionMsg":"【暑价秒杀，下单立减】带辅助练习扶手的迷你椭圆机，老人小孩使用更安全", "evaluteCount":"1900", "storeMsg":"斯诺德旗舰店", "goodProperty":"自营" })
+db.goodmsgs.insert({ "imgUrl":"http://ospsiwhw1.bkt.clouddn.com/sport/treadmill/treadmill4.jpg", "goodsId":"68", "goodsStyle":"treadmill", "price":"699.00", "goodMsg":"斯诺德踏步机 家用静音迷你椭圆机扶手脚踏机减肥瘦身健身器材 Q3-升级时尚款", "promotionMsg":"玫瑰粉-椭圆踏步机-新品上市啦-（本店专卖款）下单领券更优惠！", "evaluteCount":"500", "storeMsg":"必确运动专营店", "goodProperty":"自营" })

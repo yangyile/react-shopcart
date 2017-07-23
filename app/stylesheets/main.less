@@ -1,0 +1,721 @@
+@import '../../bower_components/bootstrap/less/bootstrap';
+@import '../../bower_components/toastr/toastr';
+@import (less) '../../bower_components/magnific-popup/dist/magnific-popup.css';
+
+/*
+ * Bootstrap overrides.
+ */
+@body-bg: #f0f3f4;
+@text-color: #58666f;
+@font-family-base: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@link-color: #363f34;
+@link-hover-color: #141718;
+
+@navbar-default-bg: #fff;
+@navbar-default-link-color: #353f44;
+@navbar-default-link-hover-bg: #f6f7f7;
+@navbar-default-link-active-bg: #f6f7f7;
+
+@btn-default-color: #58666e;
+@btn-default-border: #dee5e7;
+
+@btn-primary-color: #fff;
+@btn-primary-bg: #7266bb;
+@btn-primary-border: #7266bb;
+
+@btn-success-color: #fff;
+@btn-success-bg: #27d24b;
+@btn-success-border: #27d24b;
+
+@btn-info-color: #fff;
+@btn-info-bg: #23b7f5;
+@btn-info-border: #23b7f5;
+
+@btn-warning-color: #fff;
+@btn-warning-bg: #fac732;
+@btn-warning-border: #fac732;
+
+@btn-danger-color: #fff;
+@btn-danger-bg: #f15051;
+@btn-danger-border: #f15051;
+
+@panel-default-border: #dee5e7;
+@panel-border-radius: 2px;
+@panel-default-heading-bg: #f6f8f8;
+
+@screen-sm: 800px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  min-width: 600px;
+  background: #fff;
+}
+
+em,i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clearfix:before {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.emphasize {
+    color: #e4393c;
+    padding: 0 3px;
+}
+
+.disnone {
+    display: none;
+}
+
+hr {
+    margin: 5px 0;
+    border: 1px dotted #eee;
+}
+
+ul.container li {
+    position: relative;
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+ul.container li:hover {
+    border: 1px solid #ccc;
+}
+
+ul.container li img {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+ul.container li .goodprice {
+    color: #e4393c;
+    cursor: text;
+}
+
+ul.container li .goodprice em {
+    font-size: 12px;
+}
+
+ul.container li .goodprice i {
+    font-size: 20px;
+}
+
+ul.container li .goodmsg {
+    height: 40px;
+    color: #666;
+    overflow: hidden;
+}
+
+ul.container li .goodmsg:hover {
+    color: #C81623;
+    text-decoration: none;
+}
+
+ul.container li .goodpromotion {
+    height: 20px;
+    overflow: hidden;
+    color: #ffaa71;
+}
+
+ul.container li .evalutecount strong {
+    font-weight: 400;
+    color: #a7a7a7;
+    cursor: text;
+}
+
+ul.container li .evalutecount strong i {
+    color: #646fb0;
+    font-family: verdana;
+    font-weight: 700;
+}
+
+ul.container li .storemsg {
+    color: #666;
+    cursor: text;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul.container li .storemsg em {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+    margin-left: 4px;
+    line-height: 20px;
+    vertical-align: middle;
+    background: url(https://misc.360buyimg.com/product/list/1.0.5/css/i/im.png) no-repeat;
+    background-position: -40px 0;
+}
+
+ul.container li .goodproperty {
+    display: inline-block;
+    height: 16px;
+    padding: 0 2px;
+    background: #E4393C;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    color: #FFF;
+    cursor: text;
+}
+
+ul.container li .tip-show {
+    display: block;
+}
+
+ul.container li .tip-hide {
+    display: none;
+}
+
+ul.container li .goodtip {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 9999;
+}
+
+ul.container li .goodtip i {
+    display: inline-block;
+    height: 16px;
+    padding: 0 2px;
+    background: #E4393C;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    color: #FFF;
+    cursor: text;
+}
+
+ul.container li .goodtip:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 22px;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #eee transparent;
+}
+
+
+.gooddetail {
+    width: 100%;
+    background: #f2f2f2;
+    font-size: 12px;
+}
+.gooddetail header, .gooddetail .detail_body {
+    width: 1000px;
+    margin: 0 auto;
+}
+.detail_header {
+    height: 45px;
+    background: #f2f2f2;
+    padding: 10px;
+}
+.detail_header .detail_navs {
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+}
+.detail_header .detail_msg {
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+}
+.detail_header .detail_msg .detail_storemsg, .detail_header .detail_msg .detail_contact, .detail_header .detail_msg .detail_jimi, .detail_header .detail_msg .detail_attention {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    color: #666;
+}
+.detail_header .detail_msg .detail_storemsg .detail_jd {
+    margin-left: 8px;
+    border: 1px solid red;
+    color: white;
+    background: red;
+}
+.detail_header .detail_msg .detail_storemsg .detail_jd i {
+    padding: 0 2px;
+    color: red;
+    font-weight: bold;
+    background: white;
+}
+.detail_header .detail_msg .detail_contact {
+    background: url("http://ospsiwhw1.bkt.clouddn.com/images/sprite-gys-im.gif") no-repeat;
+    background-position: 10px 2px;
+}
+.detail_header .detail_msg .detail_jimi i {
+    position: absolute;
+    display: inline-block;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background: url("http://ospsiwhw1.bkt.clouddn.com/images/__sprite.png") no-repeat;
+    background-position: 3px 3px;
+}
+.detail_header .detail_msg .detail_attention i {
+    position: absolute;
+    display: inline-block;
+    top: 3px;
+    left: 13px;
+    width: 16px;
+    height: 16px;
+    background: url("http://ospsiwhw1.bkt.clouddn.com/images/__sprite.png") no-repeat;
+    background-position: -17px -17px;
+}
+
+
+.goodthumb {
+    position: relative;
+    margin-top: 10px;
+}
+.goodthumb .thumb_gt {
+    display:block;
+    width: 400px;
+    height: 400px;
+    border:1px solid #ccc;
+    cursor: move;
+}
+.goodthumb .thumbnav {
+    margin-top: 15px;
+}
+.goodthumb .thumbnav .nav_prev {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0;
+    float: left;
+    background: url("http://ospsiwhw1.bkt.clouddn.com/images/detail_thumb.png") no-repeat;
+    background-position: 0 -55px;
+}
+.goodthumb .thumbnav .nav_next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0;
+    float: right;
+    background: url("http://ospsiwhw1.bkt.clouddn.com/images/detail_thumb.png") no-repeat;
+    background-position: -78px 0;
+}
+.goodthumb .thumbnav .thumb_lt {
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+}
+.goodthumb .thumb_bottom {
+    margin-top: 15px;
+    height: 20px;
+    line-height: 20px;
+}
+.goodthumb .thumb_bottom .good_attention
+, .goodthumb .thumb_bottom .good_share
+, .goodthumb .thumb_bottom .good_comp {
+    position: relative;
+    padding-left: 25px;
+}
+.goodthumb .thumb_bottom .good_attention {
+    padding-left: 18px;
+}
+.goodthumb .thumb_bottom .good_attention i
+, .goodthumb .thumb_bottom .good_share i
+, .goodthumb .thumb_bottom .good_comp i {
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("http://ospsiwhw1.bkt.clouddn.com/images/detail_thumb.png") no-repeat;
+}
+.goodthumb .thumb_bottom .good_attention:hover
+, .goodthumb .thumb_bottom .good_share:hover
+, .goodthumb .thumb_bottom .good_comp:hover
+, .goodthumb .thumb_bottom .good_report:hover {
+    color: red;
+    text-decoration: none;
+}
+.goodthumb .thumb_bottom .good_attention i {
+    left: 0;
+    background-position: -44px -40px;
+}
+.goodthumb .thumb_bottom .good_comp i {
+    width: 16px;
+    height: 16px;
+    top: 0;
+    background-position: -30px -24px;
+}
+.goodthumb .thumb_bottom .good_share i {
+    background-position: -46px -24px;
+}
+.goodthumb .thumb_bottom .good_report {
+    float: right;
+}
+.goodthumb .mag_canvas {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    left: 400px;
+    top: 0;
+    z-index: 999;
+}
+
+
+.gooddetail .goods_msg .goods_name {
+    font: 700 16px Arial, "microsoft yahei";
+    color: #666;
+    padding-top: 10px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.gooddetail .goods_msg .goods_promotion {
+    max-height: 3em;
+    white-space: normal;
+    margin-bottom: 5px;
+    overflow: hidden;
+    line-height: 1.5em;
+    color: #e4393c;
+}
+.gooddetail .goods_msg .goods_price {
+    padding: 10px 0;
+    background: #f3f3f3;
+}
+.gooddetail .goods_msg .goods_price .jd_price {
+    position: relative;
+    margin-bottom: 5px;
+}
+.gooddetail .ht {
+    width: 60px;
+    line-height: 22px;
+    padding-left: 10px;
+    font-family: sumsun;
+    color: #999;
+    float: left;
+    margin-right: 10px;
+}
+.gooddetail .bt {
+    margin-left: 70px;
+    line-height: 22px;
+}
+.gooddetail .goods_msg .goods_price .jd_price .price {
+    color: #e4393c;
+    font-family: "microsoft yahei";
+    margin-right: 10px;
+    font-size: 22px;
+    line-height: 22px;
+    float: left;
+}
+.gooddetail .goods_msg .goods_price .jd_price .price i {
+    font-size: 16px;
+}
+.gooddetail .goods_msg .goods_price .jd_price .reduce_notice {
+    vertical-align: -2px;
+    color: #005aa0;
+}
+.gooddetail .goods_msg .goods_price .jd_price .reduce_notice:hover {
+    color: #e4393c;
+}
+.gooddetail .goods_msg .goods_price .jd_price .good_evalute {
+    float: right;
+    border-left: 1px solid #ccc;
+    padding: 0 10px;
+}
+.gooddetail .goods_msg .goods_price .jd_price .good_evalute .comment {
+    color: #999;
+}
+.gooddetail .goods_msg .goods_price .jd_price .good_evalute .count {
+    font: 14px verdana;
+    color: #005ea7;
+}
+.gooddetail .goods_msg .goods_price .jd_price .good_evalute .count:hover {
+    color: #e4393c;
+}
+.gooddetail .goods_msg .goods_price .pro_price .pro_limit i {
+    display: inline-block;
+    border: 1px solid #df3033;
+    color: #df3033;
+    padding: 2px 3px;
+    margin-right: 5px;
+}
+.gooddetail .goods_delivery {
+    padding-top: 5px;
+}
+.gooddetail .goods_delivery .address {
+    line-height: 22px;
+}
+.gooddetail .goods_delivery .address .address_msg {
+    position: relative;
+    float: left;
+}
+.gooddetail .goods_delivery .address .address_msg .add_text {
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    z-index: 6;
+    background-color: #fff;
+    padding: 0 5px;
+}
+.gooddetail .goods_delivery .address .border_text {
+    border: 1px solid #ccc;
+}
+.gooddetail .goods_delivery .address .address_msg .choose_choice {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 480px;
+    padding: 20px 5px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 5;
+}
+.gooddetail .goods_delivery .address .address_msg .choose_choice .collapse_list {
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+.gooddetail .goods_delivery .address .address_msg .list_icon {
+    padding-left: 3px;
+}
+.gooddetail .goods_delivery .address .address_msg .tab-content li {
+    list-style-type: none;
+}
+.gooddetail .goods_delivery .address .address_msg .tab-content a:hover {
+    background: #f00;
+    color: #fff;
+}
+.gooddetail .goods_delivery .address .goods_stock {
+    padding-left: 3px;
+    color: #999;
+}
+.gooddetail .goods_delivery .address .delivery_supply .supply_list {
+    position: relative;
+}
+.gooddetail .goods_delivery .address .delivery_supply .sup_list_noexpand {
+    height: 20px;
+    overflow: hidden;
+}
+.gooddetail .goods_delivery .address .delivery_supply .supply_list_expand {
+    position: relative;
+    height: auto;
+}
+.gooddetail .goods_delivery .address .delivery_supply .supply_list .noborder {
+    border-right: none;
+}
+.gooddetail .goods_delivery .address .delivery_supply .supply_list a {
+    color: #646FB0;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    border-right: 1px solid #eaeaea;
+    white-space: nowrap;
+}
+.gooddetail .goods_delivery .address .delivery_supply .supply_list .expand_list {
+    position: absolute;
+    left: 30px;
+    padding: 5px 3px 10px 0;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.gooddetail .goods_suit .ht {
+    line-height: 32px;
+}
+.gooddetail .goods_suit .suits .suit_item {
+    position: relative;
+    float: left;
+    color: #666;
+    background-color: #fff;
+    margin-right: 7px;
+    margin-bottom: 4px;
+}
+.gooddetail .goods_suit .suits .suit_item>a {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    display: block;
+    white-space: nowrap;
+    background-color: #fff;
+    color: #666;
+    line-height: 32px;
+    z-index: 4;
+    text-decoration: none;
+}
+.gooddetail .goods_suit .suits .suit_item>a.open {
+    border-color: #e4393c;
+    border-bottom: 1px solid #fff;
+    color: #e4393c;
+    text-decoration: none;
+}
+.gooddetail .goods_suit .suits .suit_item>a.hover {
+    border-color: #e4393c;
+    text-decoration: none;
+}
+.gooddetail .goods_suit .suits .suit_item .suit_panel {
+    position: absolute;
+    padding: 10px;
+    top: 33px;
+    left: 0;
+    width: 488px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    z-index: 3;
+}
+.gooddetail .goods_suit .suits .suit_item .suit_panel .text {
+    float: left;
+    margin-right: 15px;
+    color: #999;
+}
+.gooddetail .goods_suit .suits .suit_item .suit_panel .text strong {
+    font-size: 18px;
+    color: #e4393c;
+}
+.gooddetail .goods_suit .suits .suit_item .suit_panel .btns {
+    float: right;
+    padding: 0 13px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #df3033;
+    color: #fff;
+}
+.gooddetail .whitebar_list {
+    margin-top: 5px;
+}
+.gooddetail .whitebar_list .item_lists {
+    margin-left: 70px;
+}
+.gooddetail .whitebar_list .item {
+    position: relative;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 4px;
+    background-color: #fff;
+}
+.gooddetail .whitebar_list .ht {
+    line-height: 32px;
+}
+.gooddetail .whitebar_list .item a {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    line-height: 32px;
+}
+.gooddetail .whitebar_list .item a.hover {
+    border: 1px solid #e3393c;
+}
+.gooddetail .whitebar_list .item a.clicked {
+    border: 1px solid #e3393c;
+}
+.gooddetail .whitebar_list .item .whitebar_tip {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    z-index: 6;
+    width: 250px;
+    padding: 5px 10px;
+    background: #fefff7;
+    border: 1px solid #ccc;
+    color: #666;
+}
+.gooddetail .addtocart {
+    margin-top: 20px;
+}
+.gooddetail .addtocart .good_count {
+    width: 58px;
+    height: 44px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+.gooddetail .addtocart .good_count input {
+    display: block;
+    width: 43px;
+    height: 42px;
+    line-height: 42px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    border: 0;
+    text-align: center;
+}
+.gooddetail .addtocart .good_count a.count_add {
+    top: -1px;
+}
+.gooddetail .addtocart .good_count a.count_reduce {
+    bottom: -1px;
+}
+.gooddetail .addtocart .good_count a {
+    display: block;
+    width: 15px;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    background: #f1f1f1;
+    color: #666;
+    position: absolute;
+    right: -1px;
+    border: 1px solid #ccc;
+}
+.gooddetail .addtocart .cart_btn {
+    height: 46px;
+    line-height: 46px;
+    padding: 0 26px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    float: left;
+    font-weight: 700;
+    background-color: #df3033;
+    color: #fff;
+}

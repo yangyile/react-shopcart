@@ -1,0 +1,6 @@
+db.navbars.insert({ "navName": "家用电器","items": [{"itemName":"电风扇","url":"EleApp/Fan"},{"itemName":"空调","url":"EleApp/AirCon"},{"itemName":"冷风扇","url":"EleApp/CoodFan"}] })
+db.navbars.insert({ "navName": "手机/运营商/数码","items": [{"itemName":"手机","url":"Phone/Phone"},{"itemName":"中国电信","url":"Oper/ChinaTele"},{"itemName":"中国联通","url":"Oper/ChinaUni"}] })
+db.navbars.insert({ "navName": "电脑/办公","items": [{"itemName":"笔记本","url":"Computer/NoteBook"},{"itemName":"游戏机","url":"Computer/GameMacine"},{"itemName":"一体机","url":"Computer/AllInOne"}] })
+db.navbars.insert({ "navName": "家居/家具/家装/厨具","items": [{"itemName":"被子","url":"HomeFurnish/Quilt"},{"itemName":"凉席","url":"HomeFurnish/SleepMat"},{"itemName":"毯子","url":"HomeFurnish/Blanket"}] })
+db.navbars.insert({ "navName": "男装/女装/童装/内衣","items": [{"itemName":"商场同款","url":"ManCloth/ShopSame"},{"itemName":"当即热卖","url":"ManCloth/NowHot"},{"itemName":"T恤","url":"ManCloth/TShirt"}] })
+db.navbars.insert({ "navName": "男鞋/运动/户外","items": [{"itemName":"跑步机","url":"Sport/RunMachine"},{"itemName":"踏步机","url":"Sport/Treadmill"},{"itemName":"哑铃","url":"Sport/DumbBell"}] })
